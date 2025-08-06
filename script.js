@@ -21,3 +21,8 @@ console.log(alunos1.nome);
 console.log(aluno1.Idade);
 console.log(aluno1.materiasFavoritas);
 console.log(aluno1.materiasFavoritas[1]);
+
+conts Object = document.querySelector('#aluno');
+Object.textContent = aluno1.nome;
+Object.textContent = aluno1.Idade;
+Object.textContent = aluno1.materiasFavoritas[1];
